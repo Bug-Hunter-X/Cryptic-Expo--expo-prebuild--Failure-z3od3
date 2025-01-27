@@ -1,0 +1,3 @@
+This error typically occurs when using Expo's `expo prebuild` command, especially when dealing with complex projects or custom native modules.  It's often not a clear-cut error message, and debugging involves examining the underlying native build process (Android or iOS) for clues. The error might manifest as a general build failure, a timeout, or an opaque error message from the native build tools.
+
+Example Scenario:  Attempting `expo prebuild` results in a cryptic error like `Gradle build failed` (Android) or an Xcode build failure with no clear cause.
